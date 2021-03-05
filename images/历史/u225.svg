@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 1024 0  L 1024 1024  L 0 1024  Z " fill-rule="evenodd" fill="black" id="path227" />
+    <clipPath id="clip228">
+      <use xlink:href="#path227" />
+    </clipPath>
+    <defs>
+      <style type="text/css"></style>
+    </defs>
+    <path d="M512 0C229.21216 0 0 229.21216 0 512s229.21216 512 512 512 512-229.21216 512-512S794.78784 0 512 0z" fill="#333333" p-id="2309"></path>
+    <path d="M490.76224 374.02624h53.88288V778.24h-53.88288V374.02624zM329.07264 266.24h377.2416v53.90336h-377.2416V266.24z" fill="#FFFFFF" p-id="2310"></path>
+    <path d="M517.69344 395.59168l-172.4416 172.4416-37.74464-37.70368 172.46208-172.46208 37.72416-37.72416 210.18624 210.18624-37.72416 37.72416z" fill="#FFFFFF" p-id="2311"></path>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter229">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="1117px" y="3242px" width="50px" height="50px" filterUnits="userSpaceOnUse" id="filter230">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget231">
+      <g transform="matrix(0.0390625 0 0 0.0390625 1117 3242 )" clip-path="url(#clip228)" filter="url(#filter229)">
+        <path d="M512 0C229.21216 0 0 229.21216 0 512s229.21216 512 512 512 512-229.21216 512-512S794.78784 0 512 0z" fill="#333333" p-id="2309"></path>
+        <path d="M490.76224 374.02624h53.88288V778.24h-53.88288V374.02624zM329.07264 266.24h377.2416v53.90336h-377.2416V266.24z" fill="#FFFFFF" p-id="2310"></path>
+        <path d="M517.69344 395.59168l-172.4416 172.4416-37.74464-37.70368 172.46208-172.46208 37.72416-37.72416 210.18624 210.18624-37.72416 37.72416z" fill="#FFFFFF" p-id="2311"></path>
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1117 -3242 )">
+    <use xlink:href="#widget231" filter="url(#filter230)" />
+    <use xlink:href="#widget231" />
+  </g>
+</svg>
