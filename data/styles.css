@@ -12,6 +12,8 @@
 }
 .box_1 {
 }
+._形状 {
+}
 .image {
 }
 .placeholder {
@@ -127,6 +129,9 @@
   color:#000000;
   text-align:left;
 }
+.tree_node {
+  text-align:left;
+}
 .table_cell {
 }
 .paragraph1 {
@@ -158,6 +163,9 @@
 ._连接 {
 }
 .snapshot {
+}
+.sticky_2 {
+  text-align:left;
 }
 .marker {
   color:#FFFFFF;
@@ -288,6 +296,13 @@
   color:#F56C6C;
   text-align:center;
 }
+.tooltip {
+  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#FFFFFF;
+}
 .heading_11 {
   font-family:'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
   font-weight:700;
@@ -306,6 +321,8 @@
   font-size:14px;
   text-align:left;
 }
+.horizontal_line {
+}
 .image1 {
   color:#000000;
 }
@@ -322,5 +339,11 @@
   text-align:left;
 }
 .flow_shape1 {
+}
+._文本段落 {
+  text-align:left;
+}
+._图片 {
+  color:#000000;
 }
 textarea, select, input, button { outline: none; }

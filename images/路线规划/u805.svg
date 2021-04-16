@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px" height="70px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 1024 0  L 1024 1024  L 0 1024  Z " fill-rule="evenodd" fill="black" id="path112" />
+    <clipPath id="clip113">
+      <use xlink:href="#path112" />
+    </clipPath>
+    <defs>
+      <style type="text/css"></style>
+    </defs>
+    <path d="M961.6 537.6H43.2c-17.6 0-32-14.4-32-32s14.4-32 32-32h918.4c17.6 0 32 14.4 32 32s-14.4 32-32 32z" fill="#229BFF" p-id="5393"></path>
+    <path d="M979.2 537.6c-8 0-16-3.2-22.4-9.6L571.2 128c-12.8-12.8-11.2-33.6 0-44.8 12.8-12.8 33.6-11.2 44.8 0l385.6 400c12.8 12.8 11.2 33.6 0 44.8-6.4 6.4-14.4 9.6-22.4 9.6z" fill="#474747" p-id="5394"></path>
+    <path d="M593.6 931.2c-8 0-16-3.2-22.4-9.6-12.8-12.8-12.8-32 0-44.8l385.6-392c12.8-12.8 32-12.8 44.8 0 12.8 12.8 12.8 32 0 44.8L616 921.6c-6.4 6.4-14.4 9.6-22.4 9.6z" fill="#474747" p-id="5395"></path>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter114">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="665px" y="655px" width="70px" height="70px" filterUnits="userSpaceOnUse" id="filter115">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget116">
+      <g transform="matrix(0.05859375 0 0 0.05859375 665 655 )" clip-path="url(#clip113)" filter="url(#filter114)">
+        <path d="M961.6 537.6H43.2c-17.6 0-32-14.4-32-32s14.4-32 32-32h918.4c17.6 0 32 14.4 32 32s-14.4 32-32 32z" fill="#229BFF" p-id="5393"></path>
+        <path d="M979.2 537.6c-8 0-16-3.2-22.4-9.6L571.2 128c-12.8-12.8-11.2-33.6 0-44.8 12.8-12.8 33.6-11.2 44.8 0l385.6 400c12.8 12.8 11.2 33.6 0 44.8-6.4 6.4-14.4 9.6-22.4 9.6z" fill="#474747" p-id="5394"></path>
+        <path d="M593.6 931.2c-8 0-16-3.2-22.4-9.6-12.8-12.8-12.8-32 0-44.8l385.6-392c12.8-12.8 32-12.8 44.8 0 12.8 12.8 12.8 32 0 44.8L616 921.6c-6.4 6.4-14.4 9.6-22.4 9.6z" fill="#474747" p-id="5395"></path>
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -665 -655 )">
+    <use xlink:href="#widget116" filter="url(#filter115)" />
+    <use xlink:href="#widget116" />
+  </g>
+</svg>

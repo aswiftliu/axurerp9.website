@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="45px" height="46px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M 0 0  L 1024 0  L 1024 1024  L 0 1024  Z " fill-rule="evenodd" fill="black" id="path1292" />
+    <clipPath id="clip1293">
+      <use xlink:href="#path1292" />
+    </clipPath>
+    <defs>
+      <style type="text/css"></style>
+    </defs>
+    <path d="M212.06 633.49c35.65 113.16 481.39 205.46 602-56.32C877.61 439.2 719 63 533 70.78c-132 5.49-407 289.43-320.94 562.71z" fill="#3B5174" p-id="1797"></path>
+    <path d="M363.47 596.15s74.41 80.23 115.75 96.76l-18.6 260.43h94S542.25 635 539.15 596.8c-0.26-3.26 89.91-123 89.91-123l-99 70-16.74-180.56S493.68 575.1 486.45 634z" fill="#9BBACE" p-id="1798"></path>
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter1294">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0  " in="SourceGraphic" />
+    </filter>
+    <filter x="342px" y="458px" width="45px" height="46px" filterUnits="userSpaceOnUse" id="filter1295">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget1296">
+      <g transform="matrix(0.0341796875 0 0 0.0341796875 342 458.5 )" clip-path="url(#clip1293)" filter="url(#filter1294)">
+        <path d="M212.06 633.49c35.65 113.16 481.39 205.46 602-56.32C877.61 439.2 719 63 533 70.78c-132 5.49-407 289.43-320.94 562.71z" fill="#3B5174" p-id="1797"></path>
+        <path d="M363.47 596.15s74.41 80.23 115.75 96.76l-18.6 260.43h94S542.25 635 539.15 596.8c-0.26-3.26 89.91-123 89.91-123l-99 70-16.74-180.56S493.68 575.1 486.45 634z" fill="#9BBACE" p-id="1798"></path>
+      </g>
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -342 -458 )">
+    <use xlink:href="#widget1296" filter="url(#filter1295)" />
+    <use xlink:href="#widget1296" />
+  </g>
+</svg>
